@@ -1,0 +1,225 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/article\/open-banking-australia?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/8?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/8?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2019-12\/open_banking.png",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/19?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 14
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2ece331d-d2cb-4040-8a52-adf883ddacd2"
+        }
+    ],
+    "vid": [
+        {
+            "value": 53
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-12-20T08:08:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c2472158-6ba1-49ba-b7aa-925480139336"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c2472158-6ba1-49ba-b7aa-925480139336"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2019-12\/open_banking.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "86bb5d65-34d8-4e87-acb6-ee8a69d4e099"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/19?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20dfad4f-f877-4f36-a552-72e58390c39d"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Open banking in Australia",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-13T12:29:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-12-20T08:08:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Open banking in Australia | Open Bank AU",
+                "canonical_url": "http:\/\/default\/article\/open-banking-australia",
+                "description": "What is Open Banking?\nOpen banking refers to the use of APIs that enable third-party developers to build applications and services around financial institutions. Across the world, you can see initiatives that promote the implementation of open banking APIs with the pressure of regulations like PSD2 (Payment Services Directive) in Europe or CDR (Consumer data right) in Australia.\n\nWhich data will be available via open banking APIs?\nOpen Banking APIs will give access to the following information:"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/open-banking-australia",
+            "pid": 11,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><strong>What is Open Banking?<\/strong><br \/>\r\nOpen banking refers to the use of APIs that enable third-party developers to build applications and services around financial institutions. Across the world, you can see initiatives that promote the implementation of open banking APIs with the pressure of regulations like PSD2 (Payment Services Directive) in Europe or CDR (Consumer data right) in Australia.<\/p>\r\n\r\n<p><strong>Which data will be available via open banking APIs?<\/strong><br \/>\r\nOpen Banking APIs will give access to the following information:<\/p>\r\n\r\n<ul>\r\n\t<li><strong>Product data.<\/strong> Information about rates, fees and features for each bank's products. This data can be accessed through publicly accessible APIs.<\/li>\r\n\t<li><strong>Customer data. <\/strong>Personal information about customers such as your phone number, email address and home address.<\/li>\r\n\t<li><strong>Account data.<\/strong> Information about specific accounts such as balances, direct debits and regular repayments.<\/li>\r\n\t<li><strong>Transaction data. <\/strong>Information about the transactions on your account, including how much you spent and where you made the transaction.<\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>What is Open Banking?<\/strong><br \/>\nOpen banking refers to the use of APIs that enable third-party developers to build applications and services around financial institutions. Across the world, you can see initiatives that promote the implementation of open banking APIs with the pressure of regulations like PSD2 (Payment Services Directive) in Europe or CDR (Consumer data right) in Australia.<\/p>\n\n<p><strong>Which data will be available via open banking APIs?<\/strong><br \/>\nOpen Banking APIs will give access to the following information:<\/p>\n\n<ul>\n\t<li><strong>Product data.<\/strong> Information about rates, fees and features for each bank's products. This data can be accessed through publicly accessible APIs.<\/li>\n\t<li><strong>Customer data. <\/strong>Personal information about customers such as your phone number, email address and home address.<\/li>\n\t<li><strong>Account data.<\/strong> Information about specific accounts such as balances, direct debits and regular repayments.<\/li>\n\t<li><strong>Transaction data. <\/strong>Information about the transactions on your account, including how much you spent and where you made the transaction.<\/li>\n<\/ul>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "comment": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1573648228,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0,
+            "lang": "en"
+        }
+    ]
+}

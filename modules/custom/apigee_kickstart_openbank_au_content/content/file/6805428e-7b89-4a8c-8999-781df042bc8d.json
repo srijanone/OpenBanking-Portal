@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2019-11\/slide1edited.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6805428e-7b89-4a8c-8999-781df042bc8d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "89233ac1-80ad-4745-9131-a83198f5690d"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "slide1edited.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2019-11\/slide1edited.jpg",
+            "url": "\/sites\/default\/files\/2019-11\/slide1edited.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 102193
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-13T12:06:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-11-13T12:06:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

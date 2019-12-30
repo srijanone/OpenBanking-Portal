@@ -1,0 +1,82 @@
+<?php
+
+/**
+ * @file
+ * Main module file for Apigee Open Bank AU Enhancement.
+ */
+
+use Drupal\Core\Render\Markup;
+
+/*
+ * Load all theme functions.
+ */
+require_once __DIR__ . '/apigee_openbank_au_enhancement.theme.inc';
+
+/**
+ * Implements hook_theme().
+ */
+function apigee_openbank_au_enhancement_theme($existing, $type, $theme, $path) {
+  return [
+    'app' => [
+      'render element' => 'elements',
+      'file' => 'apigee_openbank_au_enhancement.theme.inc',
+    ],
+    'apidoc' => [
+      'render element' => 'elements',
+      'file' => 'apigee_openbank_au_enhancement.theme.inc',
+    ],
+    'secret' => [
+      'render element' => 'elements',
+      'file' => 'apigee_openbank_au_enhancement.theme.inc',
+    ],
+    'api_explorer' => [
+      'variables' => [
+        'items' => [],
+        'base_path' => substr(base_path(), 0, -1),
+      ],
+    ],
+  ];
+}
+
+/**
+ * Implements hook_entity_extra_field_info().
+ */
+function apigee_openbank_au_enhancement_entity_extra_field_info() {
+  // Make the user display name configurable.
+  // In Apigee Edge, this is the entity label.
+  $fields['user']['user']['display']['display_name'] = [
+    'label' => t('Name'),
+    'description' => t('The name from Apigee Edge.'),
+    'weight' => -10,
+    'visible' => TRUE,
+  ];
+
+  return $fields;
+}
+
+/**
+ * Implements hook_mail().
+ */
+function apigee_openbank_au_enhancement_mail($key, &$message, $params) {
+  switch ($key) {
+    case 'apigee_notify':
+      $options = [
+        'langcode' => $message['langcode'],
+      ];
+      $message['headers']['Content-Type'] = SWIFTMAILER_FORMAT_HTML;
+      $message['from'] = \Drupal::config('system.site')->get('mail');
+      $message['subject'] = $params['subject'];
+      $message['body'][] = Markup::create($params['message']);
+      $message['params']['files'] = $params['attachments'];
+      break;
+  }
+}
+
+/**
+ * Implements hook_library_info_alter().
+ */
+function apigee_openbank_au_enhancement_library_info_alter(&$libraries, $extension) {
+  if (isset($libraries['swagger_ui_formatter.swagger_ui_integration'])) {
+    unset($libraries['swagger_ui_formatter.swagger_ui_integration']);
+  }
+}

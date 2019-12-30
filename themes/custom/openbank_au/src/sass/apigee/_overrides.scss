@@ -1,0 +1,39 @@
+// Override and fixes issues in the Apigee Edge module.
+// -----------------------------------------------------------------------------
+.field,
+.wrapper--primary,
+.wrapper--secondary {
+  width: auto;
+}
+.carousel-caption {
+  h5 {
+    font-size: 2rem;
+  }
+}
+.api-page .api-card {
+  background: #f2f2f2;
+}
+.api-page .views-exposed-form {
+  .card {
+    border: #f2f2f2 1px solid !important;
+    margin-bottom: 2rem !important;
+  }
+  .card-body {
+    background: #f2f2f2 !important;
+    padding-top: 1.5rem !important;
+  }
+}
+.bg-lighter {
+  background: $lighter;
+}
+.api-explorer-method-path {
+  text-overflow: ellipsis;
+  max-width: 90%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+@media (min-width: 768px) {
+  .api-explorer-method-path {
+    max-width: 85%;
+  }
+}

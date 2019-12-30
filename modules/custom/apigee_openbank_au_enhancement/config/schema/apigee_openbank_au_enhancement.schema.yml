@@ -1,0 +1,28 @@
+apigee_openbank_au_enhancement.openbanksettings:
+  type: config_object
+  label: 'Open Bank Configuration'
+  mapping:
+    client_id:
+      type: text
+      label: 'Client Id'
+    client_secret:
+      type: text
+      label: 'Client Secret'
+    scope:
+      type: text
+      label: 'OAuth2 Scope'
+    nonce:
+      type: text
+      label: 'OAuth2 Nonce'
+    state:
+      type: text
+      label: 'OAuth2 State'
+    max_age:
+      type: integer
+      label: 'OAuth2 Max Age'
+    exp:
+      type: integer
+      label: 'OAuth2 Max Age'
+    jtl:
+      type: string
+      label: 'OAuth2 JTL'

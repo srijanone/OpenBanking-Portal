@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:47f6905c-34ba-4335-8460-2c6599d2176a'
+  module:
+    - block_content
+  theme:
+    - openbank_au
+id: copyright
+theme: openbank_au
+region: copyright
+weight: 0
+provider: null
+plugin: 'block_content:47f6905c-34ba-4335-8460-2c6599d2176a'
+settings:
+  id: 'block_content:47f6905c-34ba-4335-8460-2c6599d2176a'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

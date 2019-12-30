@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/blockquote"
+        }
+    },
+    "id": [
+        {
+            "value": 19
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3cdc765a-32c8-47a5-bba8-d0db6004cc01"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 288
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "blockquote"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-13T12:16:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "10"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_content"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_blockquote_source": [
+        {
+            "value": "James Kepler, Chief Technology Officer, Open Bank"
+        }
+    ],
+    "field_text": [
+        {
+            "value": "<p>Let\u2019s innovate together! Launch products, shape data, and connect customers using our broad suite of APIs. Join our community and get started today on your path to the next level of business success.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Let\u2019s innovate together! Launch products, shape data, and connect customers using our broad suite of APIs. Join our community and get started today on your path to the next level of business success.<\/p>"
+        }
+    ]
+}

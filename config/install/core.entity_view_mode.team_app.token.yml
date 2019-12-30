@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - apigee_edge_teams
+id: team_app.token
+label: Token
+targetEntityType: team_app
+cache: true

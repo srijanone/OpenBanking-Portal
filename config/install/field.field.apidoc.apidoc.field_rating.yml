@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.apidoc.field_rating
+  module:
+    - apigee_api_catalog
+    - votingapi_widgets
+id: apidoc.apidoc.field_rating
+field_name: field_rating
+entity_type: apidoc
+bundle: apidoc
+label: Rating
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    status: '1'
+    value: 0
+default_value_callback: ''
+settings:
+  anonymous_window: '300'
+  user_window: '0'
+  result_function: vote_average
+  widget_format: fivestar
+field_type: voting_api_field

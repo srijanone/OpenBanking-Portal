@@ -1,0 +1,94 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/button"
+        }
+    },
+    "id": [
+        {
+            "value": 24
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a8e5713b-8b3a-4d95-b37c-e8ab7cc7eb9e"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 86
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "button"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-13T12:19:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "25"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_buttons"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_button_style": [
+        {
+            "value": "primary"
+        }
+    ],
+    "field_link": [
+        {
+            "uri": "internal:\/user\/register",
+            "title": "Sign up",
+            "options": [],
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/card"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/card\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/4\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 12
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ed2950bd-ba7e-4ffa-b1b7-fe8b03ab95bf"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 280
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "card"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-13T12:11:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "11"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_cards"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/card\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/4\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1772c5c2-3db2-4a0c-861d-c99b603e301d"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "field_link": [
+        {
+            "uri": "internal:\/accounts",
+            "title": "View Documentation",
+            "options": [],
+            "lang": "en"
+        }
+    ],
+    "field_text": [
+        {
+            "value": "<p>Provide&nbsp;digital wallet, and other payment solutions across omni-channels.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Provide\u00a0digital wallet, and other payment solutions across omni-channels.<\/p>",
+            "lang": "en"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Accounts",
+            "lang": "en"
+        }
+    ]
+}

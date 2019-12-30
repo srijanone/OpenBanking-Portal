@@ -1,0 +1,39 @@
+{{ attach_library('apigee_openbank_au_enhancement/hash_url') }}
+{% if items %}
+  <ul id="api-explorer" class="navbar-nav flex-column">
+    {% for item in items %}
+      <li class="api-explorer-item nav-item">
+        <strong>
+          <a class="nav-link d-inline mr-1" href={{ base_path ~ item.uri }}>{{ item.label }}</a>
+          <i class="fas fa-angle-right"></i>
+        </strong>
+        {% if item.methods %}
+          <ul class="nav flex-column collapse">
+            {% for method in item.methods %}
+            <li class="api-explorer-item__sub-menu nav-item" class={{ method.method }}>
+              <a class="nav-link api-explorer__method {{ method.internal ? 'internal' }}" href={{ base_path ~ item.uri ~ method.uri }} data-method={{ method.method }}>
+                  {% if method.method == 'post' %}
+                    {% set method_class = 'success' %}
+                  {% elseif method.method == 'get' %}
+                    {% set method_class = 'primary' %}
+                  {% elseif method.method == 'delete' %}
+                    {% set method_class = 'danger' %}
+                  {% endif %}
+                  <div><span class="api-explorer-method btn btn-{{method_class}} btn-sm rounded-sm mr-1">{{ method.method | capitalize }}</span>
+                  {% if method.auth_required %}
+                    <i class="fa fa-lock api-explorer-lock" aria-hidden="true"></i>
+                  {% endif %}
+                  <span class="small">{{ method.operation_id }}</span>
+                  </div>
+                  <div class="text-muted small api-explorer-method-path">
+                    {{ method.path }}
+                  </div>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

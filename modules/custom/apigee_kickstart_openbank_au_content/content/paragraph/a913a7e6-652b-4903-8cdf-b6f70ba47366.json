@@ -1,0 +1,123 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/card"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/card\/field_image": [
+            {
+                "href": "http:\/\/default\/media\/3\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 10
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a913a7e6-652b-4903-8cdf-b6f70ba47366"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 279
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "card"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-13T12:08:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "11"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_cards"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/card\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/3\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9aee01bb-0cc7-457e-947b-17053632bc32"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "field_link": [
+        {
+            "uri": "internal:\/products",
+            "title": "View Documentation",
+            "options": [],
+            "lang": "en"
+        }
+    ],
+    "field_text": [
+        {
+            "value": "<p>Provide information of the different products available.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Provide information of the different products available.<\/p>",
+            "lang": "en"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Products",
+            "lang": "en"
+        }
+    ]
+}

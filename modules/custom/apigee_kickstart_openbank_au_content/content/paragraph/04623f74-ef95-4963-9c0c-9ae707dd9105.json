@@ -1,0 +1,116 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/cta"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/cta\/field_buttons": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 23
+        }
+    ],
+    "uuid": [
+        {
+            "value": "04623f74-ef95-4963-9c0c-9ae707dd9105"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 290
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cta"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-13T12:19:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "10"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_content"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/cta\/field_buttons": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/button_group"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b271ec11-f1c8-4ea9-938a-72ecf7f6c89d"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "87"
+            }
+        ]
+    },
+    "field_text": [
+        {
+            "value": "<p>Get started building right away.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Get started building right away.<\/p>",
+            "lang": "en"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Create a free developer account",
+            "lang": "en"
+        }
+    ]
+}

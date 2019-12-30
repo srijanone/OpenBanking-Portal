@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:cta:9d1be6e4-f0e9-4bc3-936d-de2c30a39f4a'
+  module:
+    - block_content
+    - system
+  theme:
+    - openbank_au
+id: ctablog
+theme: openbank_au
+region: content_below
+weight: -8
+provider: null
+plugin: 'block_content:9d1be6e4-f0e9-4bc3-936d-de2c30a39f4a'
+settings:
+  id: 'block_content:9d1be6e4-f0e9-4bc3-936d-de2c30a39f4a'
+  label: 'CTA: Blog'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blog
+    negate: false
+    context_mapping: {  }

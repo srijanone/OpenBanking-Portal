@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:title_bar:6c6d911f-cd8a-4f80-a5fc-a1f142e8dc36'
+  module:
+    - block_content
+    - system
+  theme:
+    - openbank_au
+id: titlebarapis
+theme: openbank_au
+region: header
+weight: -8
+provider: null
+plugin: 'block_content:6c6d911f-cd8a-4f80-a5fc-a1f142e8dc36'
+settings:
+  id: 'block_content:6c6d911f-cd8a-4f80-a5fc-a1f142e8dc36'
+  label: 'Title bar: APIs'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /apis
+    negate: false
+    context_mapping: {  }

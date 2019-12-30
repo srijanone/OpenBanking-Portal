@@ -1,0 +1,27 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/openbank_au.style.css: {}
+  js:
+    assets/js/openbank_au.script.js: {}
+    assets/js/swagger_ui.script.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+font.roboto:
+  version: VERSION
+  license:
+    name: 'Apache License 2.0'
+    url: https://github.com/google/roboto/blob/master/LICENSE
+    gpl-compatible: true
+  css:
+    base:
+      https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700: { external: true }
+apidoc:
+  version: VERSION
+  js:
+    assets/js/apidoc.script.js: {}
+    dependencies:
+      - core/drupal
+      - core/drupalSettings

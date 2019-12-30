@@ -1,0 +1,89 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/card"
+        }
+    },
+    "id": [
+        {
+            "value": 44
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5f6171ba-cfc4-4d24-b24b-a4aa4ae1245c"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 179
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "card"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-26T10:50:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "45"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_cards"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_text": [
+        {
+            "value": "<p>Analyse a customer\u2019s spending and earning patterns to help them to make smarter purchasing decisions. You can also connect customers with providers relevant to their lifestyle and interests.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Analyse a customer\u2019s spending and earning patterns to help them to make smarter purchasing decisions. You can also connect customers with providers relevant to their lifestyle and interests.<\/p>",
+            "lang": "en"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Recommend and assist",
+            "lang": "en"
+        }
+    ]
+}

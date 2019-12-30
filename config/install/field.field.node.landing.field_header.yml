@@ -1,0 +1,68 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_header
+    - node.type.landing
+    - paragraphs.paragraphs_type.hero_slider
+    - paragraphs.paragraphs_type.title_bar
+  module:
+    - entity_reference_revisions
+id: node.landing.field_header
+field_name: field_header
+entity_type: node
+bundle: landing
+label: Header
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      hero_slider: hero_slider
+      title_bar: title_bar
+    target_bundles_drag_drop:
+      blockquote:
+        weight: 14
+        enabled: false
+      button:
+        weight: 15
+        enabled: false
+      button_group:
+        weight: 16
+        enabled: false
+      callout:
+        weight: 17
+        enabled: false
+      callout_group:
+        weight: 18
+        enabled: false
+      card:
+        weight: 19
+        enabled: false
+      card_group:
+        weight: 20
+        enabled: false
+      cta:
+        weight: 21
+        enabled: false
+      hero:
+        weight: 22
+        enabled: false
+      hero_slider:
+        enabled: true
+        weight: 23
+      text:
+        weight: 24
+        enabled: false
+      text_image:
+        weight: 25
+        enabled: false
+      title_bar:
+        enabled: true
+        weight: 26
+field_type: entity_reference_revisions

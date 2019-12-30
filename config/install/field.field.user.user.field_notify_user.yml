@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_notify_user
+  module:
+    - user
+id: user.user.field_notify_user
+field_name: field_notify_user
+entity_type: user
+bundle: user
+label: 'Notify Important Updates and Alerts'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,89 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/card"
+        }
+    },
+    "id": [
+        {
+            "value": 43
+        }
+    ],
+    "uuid": [
+        {
+            "value": "41ed483b-16cc-46b2-8f44-001698136e55"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 178
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "card"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-26T10:50:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "45"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_cards"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_text": [
+        {
+            "value": "<p>By finding out useful information about a customer\u2019s transactions, you get a clear picture of their spending and earning habits. This enables you to approve contracts and purchases quickly, or give customers useful financial breakdowns.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>By finding out useful information about a customer\u2019s transactions, you get a clear picture of their spending and earning habits. This enables you to approve contracts and purchases quickly, or give customers useful financial breakdowns.<\/p>",
+            "lang": "en"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Analyse and understand",
+            "lang": "en"
+        }
+    ]
+}

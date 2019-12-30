@@ -1,0 +1,124 @@
+<?php
+
+/**
+ * @file
+ * Theme functions.
+ */
+
+use Drupal\Core\Url;
+use Drupal\Component\Serialization\Json;
+
+// Include all files from the includes directory.
+$includes_path = dirname(__FILE__) . '/includes/*.inc';
+foreach (glob($includes_path) as $filename) {
+  require_once dirname(__FILE__) . '/includes/' . basename($filename);
+}
+
+/**
+ * Helper function to facilite rendering blocks within a node template.
+ *
+ * @see openbank_au_preprocess_node()
+ */
+function openbank_au_add_regions_to_node(array $regions, &$variables) {
+  // Retrieve active theme.
+  $theme = \Drupal::theme()->getActiveTheme()->getName();
+  $available_regions = system_region_list($theme);
+
+  // Validate allowed regions with available regions.
+  $regions = array_intersect(array_keys($available_regions), $regions);
+
+  foreach ($regions as $key => $region) {
+    $blocks = entity_load_multiple_by_properties('block', ['theme' => $theme, 'region' => $region]);
+    uasort($blocks, 'Drupal\block\Entity\Block::sort');
+
+    // Capture viewable blocks and their settings to $build.
+    $build = [];
+    foreach ($blocks as $key => $block) {
+      if ($block->access('view')) {
+        $build[$key] = entity_view($block, 'block');
+      }
+    }
+
+    // Add build to region.
+    $variables[$region] = $build;
+  }
+}
+
+/**
+ * Implement hook_preprocess.
+ */
+function openbank_au_preprocess_paragraph__hero_slider(&$variables) {
+  $paragraph = $variables['paragraph'];
+  $slide_paras = $paragraph->get('field_slide')->referencedEntities();
+  $slides = [];
+  foreach ($slide_paras as $para) {
+    $image_src = NULL;
+    $media = $para->get('field_media')->entity;
+    if ($media) {
+      $image = $media->get('field_media_image')->entity;
+      if ($image) {
+        $image_src = file_create_url($image->getFileUri());
+      }
+    }
+    if ($image_src) {
+      // ksm($para->get('field_buttons')->referencedEntities());
+      $slides[] = [
+        'text' => $para->get('field_text')->value,
+        'title' => $para->get('field_title')->value,
+        'button_groups' => $para->get('field_buttons')->referencedEntities(),
+        'image_src' => $image_src,
+      ];
+    }
+  }
+  $variables['slides'] = $slides;
+  // Do things here if content type == 'specified_type'.
+}
+
+/**
+ * Implement hook_preprocess.
+ */
+function openbank_au_preprocess_apidoc(&$variables) {
+  $au_config = \Drupal::config('apigee_openbank_au_enhancement.openbanksettings');
+  $client_id = $au_config->get('client_id');
+  $env = 'test';
+  $edge_json_settings = \Drupal::service('key.repository')->getKey('apigee_edge_connection_default')->get('key_provider_settings');
+  $org = Json::decode($edge_json_settings['key_value'])['organization'];
+  $redirect_uri = Url::fromRoute('apigee_openbank_au_enhancement.oauth2_callback', [], ['absolute' => TRUE])->toString();
+  $redirect_uri = str_replace(':8080', ':3000', $redirect_uri);
+  $response_type = 'code id_token';
+  $scope = $au_config->get('oauth2_scope');
+  $state = $au_config->get('state');
+  $nonce = $au_config->get('nonce');
+  $max_age = $au_config->get('max_age');
+  $acr_values = 'urn:cds.au:cdr:3';
+  $reponse_mode = 'form_post';
+  $jtl = $au_config->get('jtl');
+  $exp = $au_config->get('exp');
+  $uri = "https://$org-$env.apigee.net/authorise";
+  $options = [
+    'headers' => [
+      'Content-type' => 'application/x-www-form-urlencoded',
+      'Accept' => 'application/json',
+    ],
+    'query' => [
+      'client_id' => $client_id,
+      'redirect_uri' => $redirect_uri,
+      'response_type' => $response_type,
+      'scope' => $scope,
+      'state' => $state,
+      'nonce' => $nonce,
+      'max_age' => $max_age,
+      'acr_values' => $acr_values,
+      'response_mode' => $reponse_mode,
+      'jtl' => $jtl,
+      'exp' => $exp,
+    ],
+    'absolute' => TRUE,
+  ];
+  $next_transaction_url = Url::fromUri($uri, $options)->toString();
+  $variables['#attached']['drupalSettings'] = [
+    'apigee_openbank_oauth_oidc' => [
+      'url' => $next_transaction_url,
+    ],
+  ];
+}

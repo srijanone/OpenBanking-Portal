@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - openbank_au
+id: openbank_au_search
+theme: openbank_au
+region: navbar_right
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }

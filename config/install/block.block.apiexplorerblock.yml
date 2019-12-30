@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - apigee_openbank_au_enhancement
+    - system
+  theme:
+    - openbank_au
+id: apiexplorerblock
+theme: openbank_au
+region: sidebar_left
+weight: 0
+provider: null
+plugin: api_explorer_block
+settings:
+  id: api_explorer_block
+  label: 'Api Explorer'
+  provider: apigee_openbank_au_enhancement
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '/docs/*'
+    negate: false
+    context_mapping: {  }

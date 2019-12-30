@@ -1,0 +1,22 @@
+.btn {
+  font-family: 'Roboto-Medium', $font-family-sans-serif;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.btn.btn-primary {
+  font-size: 1.2rem;
+}
+
+[class*='btn-outline-'] {
+  border-width: 2px;
+}
+
+.btn-lg {
+  font-size: .875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  min-width: 150px;
+  border-radius: 2px;
+}

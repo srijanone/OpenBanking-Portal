@@ -1,0 +1,12 @@
+apigee_openbank_au_enhancement.open_bank_settings:
+  title: 'Open Bank Settings'
+  route_name: apigee_openbank_au_enhancement.open_bank_settings
+  description: 'OIDC OAuth2 Settings'
+  parent: system.admin_config_edge
+  weight: 99
+apigee_openbank_au_enhancement.apigee_notify:
+  title: 'Notify Users'
+  route_name: apigee_openbank_au_enhancement.apigee_notify
+  description: 'Notify Users'
+  parent: system.admin_config_edge
+  weight: 100

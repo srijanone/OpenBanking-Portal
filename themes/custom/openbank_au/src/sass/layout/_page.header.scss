@@ -1,0 +1,14 @@
+// Page: Header
+// -----------------------------------------------------------------------------
+.page__header {
+
+  .page__title {
+
+    @include media-breakpoint-down(sm) {
+      font-size: 1.5rem;
+    }
+  }
+}
+.user-logged-in [data-drupal-link-system-path="user/register"] {
+  display: none;
+}

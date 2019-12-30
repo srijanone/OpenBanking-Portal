@@ -1,0 +1,119 @@
+Radix 8.x-4.6, 2019-10-07
+==================
+- Issue #3081150 by arshadcn, Jacine: Drush subtheme generator expects the kit to be located in Radix
+- Issue #3081166 by arshadcn, Jacine: Provide a means to rename other additional configuration files
+- Issue #3082593 by arshadcn, diqidoq, stefan.korn, tstermitz: Radix creates html class attribute "img-thumbnail" for all images
+- Issue #3084620 by stefan.korn: Views Mini pager should not show if there is only one page of items
+- Issue #3074568 by semiaddict, charlieweb82, sgammon: nav.twig: Array to string conversion in Drupal\Core\Template\AttributeArray->__toString()
+
+Radix 8.x-4.5, 2019-09-08
+==================
+- Issue #2933383 by Sweetchuck: Convert radix drush command to drush 9
+
+Radix 8.x-4.4, 2019-07-23
+==================
+- Issue #3063109 by Jacine: Site logo should have an alt attribute
+- Issue #3008219 by hctom, jwilson3: Call to a member function bundle() on string in radix_theme_suggestions_page_alter()
+- Issue #3053875 by jwilson3: dismissible alerts syntax is confusing, missing alert-dismissible
+
+Radix 8.x-4.3, 2019-05-04
+---------------------------------------
+- Issue #3052101 by arshadcn: Add cross-env to theme for Windows support
+- Issue #3008488 by neubreed, scoff, Morbus Iff: Fix logo width and height in navbar/navbar-brand.twig
+- Issue #3051644: Nav twig file doesn't allow the class override by third-party modules
+- Issue #3049513 by sgammon, Morbus Iff, arshadcn: Menu block nav container and id/classes are not included
+- Issue #3048201: Use dropdowns for dropbutton
+- Issue #3028359 by kevinfunk, crs1138: Missing Sass variables in the subtheme
+
+Radix 8.x-4.2, 2019-04-06
+---------------------------------------
+- Added template suggestions for user entity.
+- Issue #3046104 by doxigo, arshadcn: radix_preprocess_filter_caption overrides the output of image HTML with captions
+- Issue #3045895: Call to a member function setAttribute() on null in radix_preprocess_filter_caption
+- Fixed an issue with missing attributes in nav template.
+- Issue #3026552: set processCSSUrls to false by default
+
+Radix 8.x-4.1, 2019-03-25
+---------------------------------------
+- Issue #3042502 by kevinfunk, arshadcn: Update Bootstrap to 4.3.1
+- Update npm packages in default kit
+- Add a theme schema
+- Add template for forum and comment
+
+Radix 8.x-4.0, 2018-08-03
+---------------------------------------
+- Upgrade Bootstrap to Bootstrap 4
+- Add Twig components support
+- Add drupal/components as a composer dependency
+- Replace Gulp with Laravel Mix
+
+Radix 8.x-3.1, 2017-02-01
+---------------------------------------
+- Remove unused menu template files.
+- Fixed drop-downs not showing in main navigation.
+- Add contextual links back to system-menu-block.
+- Allow kits to be created from any branch.
+- Add support for Yarn package manager.
+- Update npm dependencies.
+- Update bower dependencies.
+- Add bootstrap styles to Radix base theme.
+
+Radix 8.x-3.0, 2016-12-22
+---------------------------------------
+- No changes
+
+Radix 8.x-3.0-beta1, 2016-11-28
+---------------------------------------
+- Issue #2824400 by Laubi, arshadcn: Radix is spamming notice messages.
+- Remove comment.inc file.
+- Update the list of files to make replacement on drush.
+
+Radix 8.x-3.0-alpha4, 2016-06-15
+---------------------------------------
+- Restore previous field.html.twig and add a field-no-wrapper.html.twig template
+- Clean up radix template files
+- Rename default files in the default kit
+- Move scss and js directories under assets
+- Issue #2711987 by jday: Minor issues in _mixins.scss calls
+- Remove compass from style.scss
+- Rename breakpoints.yml file when creating a subtheme
+
+Radix 8.x-3.0-alpha3, 2016-05-14
+---------------------------------------
+- Add breakpoints file to default kit
+- Updates for multiple templates: views, html, feed-icon, field and block
+- Update template for views and nodes
+- Update template for block
+- Remove theme_views_mini_pager
+- Remove bootstrapcdn js
+- Update block template
+- Remove seven/global-styling library
+- Issue #2699605: Undefined index: id in radix_preprocess_block()
+- Remove gulp-compass from default kit
+
+Radix 8.x-3.0-alpha2, 2016-05-14
+---------------------------------------
+- Fix template for checkboxes and radios
+- Update template for form-element
+- Add template for page-title
+- Add radix scss partial to main theme
+- Remove unused radix_theme hook
+- Remove system.admin.css
+- Add template for local action
+- Move radix scss partials out of the default/subtheme kit
+
+Radix 8.x-3.0-alpha1, 2016-02-08
+---------------------------------------
+- Remove id from main nav template
+- Update region template
+- Update main page template
+- Update branding block template
+- Use site-logo and site-name classes instead of ids
+- Remove stylesheets and add regions and libraries to info file
+- Update template of search form
+- Update z-index of navbar
+- Remove alter hooks from .theme file
+- Update default logos
+- Update default template for blocks
+- Remove bower_components under gitignore
+- Fix info and libraries files for latest version

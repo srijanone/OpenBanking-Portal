@@ -1,0 +1,66 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slide
+    - paragraphs.paragraphs_type.hero
+    - paragraphs.paragraphs_type.hero_slider
+  module:
+    - entity_reference_revisions
+id: paragraph.hero_slider.field_slide
+field_name: field_slide
+entity_type: paragraph
+bundle: hero_slider
+label: Slide
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      hero: hero
+    target_bundles_drag_drop:
+      blockquote:
+        weight: 14
+        enabled: false
+      button:
+        weight: 15
+        enabled: false
+      button_group:
+        weight: 16
+        enabled: false
+      callout:
+        weight: 17
+        enabled: false
+      callout_group:
+        weight: 18
+        enabled: false
+      card:
+        weight: 19
+        enabled: false
+      card_group:
+        weight: 20
+        enabled: false
+      cta:
+        weight: 21
+        enabled: false
+      hero:
+        enabled: true
+        weight: 22
+      hero_slider:
+        weight: 23
+        enabled: false
+      text:
+        weight: 24
+        enabled: false
+      text_image:
+        weight: 25
+        enabled: false
+      title_bar:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

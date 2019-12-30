@@ -1,0 +1,201 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/forum\/automate-service-ticket-creation?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/forum"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/taxonomy_forums": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/13?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 19
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0a6eff3f-03b5-4b62-b627-7b1abf39147d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 32
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "forum"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-11-13T12:52:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "89233ac1-80ad-4745-9131-a83198f5690d"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "89233ac1-80ad-4745-9131-a83198f5690d"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/taxonomy_forums": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/13?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/forums"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "126b43a0-1935-4d90-8b79-9d43f2282d83"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Automate Service Ticket Creation",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-13T12:44:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-11-13T12:52:25+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Automate Service Ticket Creation | Open Bank AU",
+                "canonical_url": "http:\/\/default\/forum\/automate-service-ticket-creation",
+                "description": "In a gravida nisi, in interdum urna. Nunc nec eros sed magna tincidunt vestibulum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis facilisis tortor augue, eget facilisis arcu hendrerit at.\n\nAliquam ultricies erat augue, sodales finibus dui rutrum et. Maecenas eget ipsum eu ante dictum auctor.\n\nSuspendisse sed orci nulla. Nullam id rhoncus lacus. Fusce velit enim, viverra ut tortor ultricies, tincidunt aliquet felis. Praesent porta eros et lacus blandit rutrum. Nulla sollicitudin ex elit, sit amet lobortis magna malesuada eget."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/forum\/automate-service-ticket-creation",
+            "pid": 16,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>In a gravida nisi, in interdum urna. Nunc nec eros sed magna tincidunt vestibulum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis facilisis tortor augue, eget facilisis arcu hendrerit at.<\/p>\r\n\r\n<p>Aliquam ultricies erat augue, sodales finibus dui rutrum et. Maecenas eget ipsum eu ante dictum auctor.<\/p>\r\n\r\n<p>Suspendisse sed orci nulla. Nullam id rhoncus lacus. Fusce velit enim, viverra ut tortor ultricies, tincidunt aliquet felis. Praesent porta eros et lacus blandit rutrum. Nulla sollicitudin ex elit, sit amet lobortis magna malesuada eget.<\/p>\r\n\r\n<p>Donec et dolor sed mi ornare imperdiet sit amet et justo. Duis blandit malesuada leo a pellentesque. Maecenas suscipit gravida leo, at convallis quam ullamcorper eu. Donec sollicitudin augue vitae luctus consequat. In tristique varius dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;<\/p>\r\n\r\n<p>Quisque eget erat risus. Phasellus iaculis orci id erat porttitor, quis tristique turpis cursus. Nulla gravida fermentum erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc eu mollis velit.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>In a gravida nisi, in interdum urna. Nunc nec eros sed magna tincidunt vestibulum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis facilisis tortor augue, eget facilisis arcu hendrerit at.<\/p>\n\n<p>Aliquam ultricies erat augue, sodales finibus dui rutrum et. Maecenas eget ipsum eu ante dictum auctor.<\/p>\n\n<p>Suspendisse sed orci nulla. Nullam id rhoncus lacus. Fusce velit enim, viverra ut tortor ultricies, tincidunt aliquet felis. Praesent porta eros et lacus blandit rutrum. Nulla sollicitudin ex elit, sit amet lobortis magna malesuada eget.<\/p>\n\n<p>Donec et dolor sed mi ornare imperdiet sit amet et justo. Duis blandit malesuada leo a pellentesque. Maecenas suscipit gravida leo, at convallis quam ullamcorper eu. Donec sollicitudin augue vitae luctus consequat. In tristique varius dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;<\/p>\n\n<p>Quisque eget erat risus. Phasellus iaculis orci id erat porttitor, quis tristique turpis cursus. Nulla gravida fermentum erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc eu mollis velit.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "comment_forum": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1573649353,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0,
+            "lang": "en"
+        }
+    ]
+}

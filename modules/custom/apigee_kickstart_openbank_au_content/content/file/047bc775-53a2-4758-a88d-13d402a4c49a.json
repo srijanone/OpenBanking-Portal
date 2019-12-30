@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2019-12\/Screenshot%202019-12-20%20at%206.24.11%20PM.png"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/8?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 22
+        }
+    ],
+    "uuid": [
+        {
+            "value": "047bc775-53a2-4758-a88d-13d402a4c49a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c2472158-6ba1-49ba-b7aa-925480139336"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "Screenshot 2019-12-20 at 6.24.11 PM.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2019-12\/Screenshot 2019-12-20 at 6.24.11 PM.png",
+            "url": "\/sites\/default\/files\/2019-12\/Screenshot%202019-12-20%20at%206.24.11%20PM.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 11514
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-12-20T08:24:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-12-20T08:24:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

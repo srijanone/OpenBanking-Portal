@@ -1,0 +1,108 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.apidoc.apidoc.field_categories
+    - field.field.apidoc.apidoc.field_image
+    - field.field.apidoc.apidoc.field_meta_tags
+    - field.field.apidoc.apidoc.field_rating
+    - field.field.apidoc.apidoc.field_subscription_type
+  module:
+    - apigee_api_catalog
+    - field_group
+    - file
+    - file_link
+    - media_library
+    - metatag
+    - path
+    - text
+    - votingapi_widgets
+third_party_settings:
+  field_group:
+    group_settings:
+      children:
+        - path
+        - field_meta_tags
+      parent_name: ''
+      weight: 20
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: vertical
+      label: Settings
+id: apidoc.apidoc.default
+targetEntityType: apidoc
+bundle: apidoc
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_categories:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_image:
+    type: media_library_widget
+    weight: 4
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    region: content
+  field_meta_tags:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
+  field_rating:
+    weight: 6
+    settings:
+      show_initial_vote: 0
+    third_party_settings: {  }
+    type: voting_api_widget
+    region: content
+  field_subscription_type:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  spec:
+    label: hidden
+    type: file_generic
+    region: content
+    weight: 3
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 2
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }

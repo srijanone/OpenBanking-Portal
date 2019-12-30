@@ -1,0 +1,135 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/hero"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/hero\/field_buttons": [
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/hero\/field_media": [
+            {
+                "href": "http:\/\/default\/media\/2\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 8
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3133bca1-9817-4e4e-8bf9-3b6da3e60c78"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 237
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "hero"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-13T12:06:50+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "9"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_slide"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/hero\/field_buttons": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/button_group"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fc742ea1-2819-48bc-adea-086702a6dcb2"
+                    }
+                ],
+                "target_revision_id": "236"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/hero\/field_media": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/2\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20497f14-a2fe-4b90-b9bf-7ee0945e7ffb"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_text": [
+        {
+            "value": "<p>Instant access to all your accounts.&nbsp; Easy and secure.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Instant access to all your accounts.\u00a0 Easy and secure.<\/p>",
+            "lang": "en"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Accounts"
+        }
+    ]
+}

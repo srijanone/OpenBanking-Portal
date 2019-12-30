@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2019-11\/growth.svg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2931b4fc-9f50-4949-aa10-c11739f1e125"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "89233ac1-80ad-4745-9131-a83198f5690d"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "growth.svg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2019-11\/growth.svg",
+            "url": "\/sites\/default\/files\/2019-11\/growth.svg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/svg+xml"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 4492
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-13T12:12:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-11-13T12:12:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

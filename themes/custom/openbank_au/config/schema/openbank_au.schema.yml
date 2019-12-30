@@ -1,0 +1,5 @@
+# Schema for the configuration files of the openbank_au theme.
+
+openbank_au.settings:
+  type: theme_settings
+  label: 'openbank_au settings'

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.apidoc.field_subscription_type
+  module:
+    - apigee_api_catalog
+    - options
+id: apidoc.apidoc.field_subscription_type
+field_name: field_subscription_type
+entity_type: apidoc
+bundle: apidoc
+label: 'Subscription Type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: Free
+default_value_callback: ''
+settings: {  }
+field_type: list_string

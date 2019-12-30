@@ -1,0 +1,134 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/callout"
+        }
+    },
+    "id": [
+        {
+            "value": 16
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6b6bb274-3e9a-41b9-83d3-e6c8b08850b4"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 285
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "callout"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-13T12:15:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "18"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_callouts"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_icon": [
+        {
+            "icon_name": "laptop-code",
+            "style": "fas",
+            "settings": {
+                "duotone": {
+                    "swap-opacity": 0,
+                    "opacity": {
+                        "primary": "",
+                        "secondary": ""
+                    },
+                    "color": {
+                        "primary": "#000000",
+                        "secondary": "#000000"
+                    }
+                },
+                "masking": {
+                    "mask": "",
+                    "style": "fas"
+                },
+                "power_transforms": {
+                    "scale": {
+                        "type": "",
+                        "value": ""
+                    },
+                    "position_y": {
+                        "type": "",
+                        "value": ""
+                    },
+                    "position_x": {
+                        "type": "",
+                        "value": ""
+                    }
+                }
+            },
+            "lang": "en"
+        }
+    ],
+    "field_link": [
+        {
+            "uri": "internal:\/user\/apps",
+            "title": "Get Your Key",
+            "options": []
+        }
+    ],
+    "field_text": [
+        {
+            "value": "<p>Use our APIs to build and test your own apps in a sandbox or live customer environment.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Use our APIs to build and test your own apps in a sandbox or live customer environment.<\/p>",
+            "lang": "en"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Build",
+            "lang": "en"
+        }
+    ]
+}

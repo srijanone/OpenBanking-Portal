@@ -1,0 +1,31 @@
+secret:
+  version: 1.0
+  js:
+    js/apigee_openbank_au_enhancement.secret.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+hash_url:
+  version: 1.0
+  js:
+    js/apigee_openbank_au_enhancement.hash-url.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+oauth2_callback:
+  version: VERSION
+  js:
+    js/oauth2_callback_controller.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+
+oauth2_form:
+  version: VERSION
+  js:
+    js/oauth2_form.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings

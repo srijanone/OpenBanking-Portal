@@ -1,0 +1,21 @@
+// Apidoc
+// -----------------------------------------------------------------------------
+
+// Card display mode.
+// -----------------------------------------------------------------------------
+.apidoc--view-mode-card {
+  height: 100%;
+}
+.apidoc__field-rating {
+  display: none;
+}
+.user-logged-in {
+  .apidoc__field-rating {
+    display: block;
+  }
+}
+.apidoc--view-mode-full {
+  .form-type-select {
+    float: right;
+  }
+}

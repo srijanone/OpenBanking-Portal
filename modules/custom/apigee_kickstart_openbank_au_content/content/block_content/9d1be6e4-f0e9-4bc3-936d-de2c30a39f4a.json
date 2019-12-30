@@ -1,0 +1,133 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/5?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/cta"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/cta\/revision_user": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/cta\/field_cta": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 5
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9d1be6e4-f0e9-4bc3-936d-de2c30a39f4a"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 11
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cta"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-12-18T11:16:47+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/cta\/revision_user": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "89233ac1-80ad-4745-9131-a83198f5690d"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/cta\/field_cta": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/cta"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "69b0c098-c717-4dc8-910b-c9699a17f80f"
+                    }
+                ],
+                "target_revision_id": "266"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "CTA: Blog",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-12-18T11:16:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "| Open Bank AU",
+                "canonical_url": "http:\/\/default\/welcome"
+            }
+        }
+    ]
+}

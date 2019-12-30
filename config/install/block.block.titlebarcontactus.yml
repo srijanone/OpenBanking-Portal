@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:title_bar:413bbad6-3715-4ac0-8c83-41f1fa5873d8'
+  module:
+    - block_content
+    - system
+  theme:
+    - openbank_au
+id: titlebarcontactus
+theme: openbank_au
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:413bbad6-3715-4ac0-8c83-41f1fa5873d8'
+settings:
+  id: 'block_content:413bbad6-3715-4ac0-8c83-41f1fa5873d8'
+  label: 'Title bar: Contact Us'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

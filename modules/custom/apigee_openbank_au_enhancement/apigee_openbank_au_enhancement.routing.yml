@@ -1,0 +1,30 @@
+apigee_openbank_au_enhancement.apigee_notify:
+  path: '/admin/apigee-notify'
+  defaults:
+    _form: '\Drupal\apigee_openbank_au_enhancement\Form\ApigeeNotifyForm'
+    _title: 'ApigeeNotifyForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: FALSE
+
+apigee_openbank_au_enhancement.oauth2_callback:
+  path: '/oidc-oauth2/callback'
+  defaults:
+    _controller: '\Drupal\apigee_openbank_au_enhancement\Controller\OAuth2Controller::callback'
+    _title: 'Obtaing Token'
+  methods: ['POST', 'OPTIONS']
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+
+apigee_openbank_au_enhancement.open_bank_settings:
+  path: '/admin/config/apigee-edge/openbanksettings'
+  defaults:
+    _form: '\Drupal\apigee_openbank_au_enhancement\Form\OpenBankSettings'
+    _title: 'Open Bank Settings'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

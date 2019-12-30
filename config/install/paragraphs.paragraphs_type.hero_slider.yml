@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: hero_slider
+label: 'Hero Slider'
+icon_uuid: null
+description: 'Use To Create A Hero Slider'
+behavior_plugins: {  }

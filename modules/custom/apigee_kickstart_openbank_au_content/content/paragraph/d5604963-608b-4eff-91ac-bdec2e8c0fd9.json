@@ -1,0 +1,125 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/card_group"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/card_group\/field_cards": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 42
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d5604963-608b-4eff-91ac-bdec2e8c0fd9"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 177
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "card_group"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-26T10:47:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "23"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_content"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/card_group\/field_cards": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8fc7f204-42ee-4582-a68c-a48fdae2c25e"
+                    }
+                ],
+                "target_revision_id": "175"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8068beb6-04d6-4ba1-b101-4d76dee206d5"
+                    }
+                ],
+                "target_revision_id": "176"
+            }
+        ]
+    },
+    "field_title": [
+        {
+            "value": "What features does it have?",
+            "lang": "en"
+        }
+    ]
+}

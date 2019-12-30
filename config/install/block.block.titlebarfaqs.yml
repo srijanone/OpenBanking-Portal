@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:title_bar:7ec83f9a-57c6-45af-b30b-d2ca6c37a390'
+  module:
+    - block_content
+    - system
+  theme:
+    - openbank_au
+id: titlebarfaqs
+theme: openbank_au
+region: header
+weight: -7
+provider: null
+plugin: 'block_content:7ec83f9a-57c6-45af-b30b-d2ca6c37a390'
+settings:
+  id: 'block_content:7ec83f9a-57c6-45af-b30b-d2ca6c37a390'
+  label: 'Title bar: FAQs'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /faq
+    negate: false
+    context_mapping: {  }

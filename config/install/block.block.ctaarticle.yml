@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:cta:de9166d0-f748-400d-bc28-860ea6775756'
+  module:
+    - block_content
+    - node
+  theme:
+    - openbank_au
+id: ctaarticle
+theme: openbank_au
+region: content_below
+weight: 0
+provider: null
+plugin: 'block_content:de9166d0-f748-400d-bc28-860ea6775756'
+settings:
+  id: 'block_content:de9166d0-f748-400d-bc28-860ea6775756'
+  label: 'CTA: Article'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

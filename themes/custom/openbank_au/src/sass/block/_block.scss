@@ -1,0 +1,40 @@
+.api-explorer-item {
+  font-size: 1.125rem;
+
+  .fa-angle-right {
+    cursor: pointer;
+  }
+
+  &.expanded {
+    .fa-angle-right {
+      transform: rotate(90deg);
+    }
+  }
+
+  .api-explorer-method {
+    min-width: 100px;
+  }
+}
+.block--apiexplorerblock {
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  h2 {
+    margin: 0.3em;
+    font-size: 1.5rem;
+  }
+  .api-explorer-item:first-child {
+    border-top: 1px solid #dddddd;
+  }
+  .api-explorer-item {
+    padding: 0.5em;
+    margin-bottom: 0.2em;
+  }
+  .api-explorer-item:not(:last-child) {
+    border-bottom: 1px solid #dddddd;
+  }
+  .btn.btn-primary {
+    font-size: 0.875rem;
+  }
+}
+
+

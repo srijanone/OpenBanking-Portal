@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - apigee_api_catalog
+id: apigee_api_doc
+label: 'Apigee Api Doc'
+type: 'canonical_entities:apidoc'
+pattern: '/docs/[apidoc:name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

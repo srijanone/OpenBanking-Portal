@@ -1,0 +1,6 @@
+langcode: en
+status: true
+dependencies: {  }
+id: apidoc
+label: 'API Doc'
+tags: {  }

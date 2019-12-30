@@ -1,0 +1,89 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/card"
+        }
+    },
+    "id": [
+        {
+            "value": 41
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8068beb6-04d6-4ba1-b101-4d76dee206d5"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 176
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "card"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-26T10:48:07+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "42"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_cards"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_text": [
+        {
+            "value": "<p>Access useful information such as IBAN, BIC and the account balance of your customers' current and deposit account(s) quickly and easily. You can also gain insight into customers\u2019 transaction data, including amounts, dates, counterparties and much more.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Access useful information such as IBAN, BIC and the account balance of your customers' current and deposit account(s) quickly and easily. You can also gain insight into customers\u2019 transaction data, including amounts, dates, counterparties and much more.<\/p>",
+            "lang": "en"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Products",
+            "lang": "en"
+        }
+    ]
+}

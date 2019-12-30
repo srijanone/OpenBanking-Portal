@@ -1,0 +1,135 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/8?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/title_bar"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/title_bar\/revision_user": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/title_bar\/field_title_bar": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 8
+        }
+    ],
+    "uuid": [
+        {
+            "value": "413bbad6-3715-4ac0-8c83-41f1fa5873d8"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 8
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "title_bar"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-12-18T10:29:43+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/title_bar\/revision_user": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "89233ac1-80ad-4745-9131-a83198f5690d"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/title_bar\/field_title_bar": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/title_bar"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a96f2cfa-26f4-42e8-aa08-ab5f98878f12"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "263"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Title bar: Contact Us",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-12-18T10:29:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "| Open Bank AU",
+                "canonical_url": "http:\/\/default\/welcome"
+            }
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/button_group"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/button_group\/field_buttons": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 72
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7934d4bd-015c-4f20-af2a-8ade1725bc8a"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 265
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "button_group"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-12-18T10:24:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "73"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_buttons"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/button_group\/field_buttons": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/button"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "971df49a-198b-449e-8252-26372efa7fbe"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "256"
+            }
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:title_bar:c1502699-9e8f-46db-ba2c-ba9a4929bcb6'
+  module:
+    - block_content
+    - system
+  theme:
+    - openbank_au
+id: titlebarforum
+theme: openbank_au
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:c1502699-9e8f-46db-ba2c-ba9a4929bcb6'
+settings:
+  id: 'block_content:c1502699-9e8f-46db-ba2c-ba9a4929bcb6'
+  label: 'Title bar: Forum'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/forum\r\n/forum/*"
+    negate: false
+    context_mapping: {  }

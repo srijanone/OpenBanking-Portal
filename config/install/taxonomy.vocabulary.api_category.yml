@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'API Category'
+vid: api_category
+description: 'Categories for API Docs.'
+weight: 0

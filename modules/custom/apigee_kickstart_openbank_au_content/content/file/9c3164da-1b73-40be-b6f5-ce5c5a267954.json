@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2019-12\/Accelerate%20open%20banking.png"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/8?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 23
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9c3164da-1b73-40be-b6f5-ce5c5a267954"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c2472158-6ba1-49ba-b7aa-925480139336"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "Accelerate open banking.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2019-12\/Accelerate open banking.png",
+            "url": "\/sites\/default\/files\/2019-12\/Accelerate%20open%20banking.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 52639
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-12-20T08:29:32+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-12-20T08:31:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

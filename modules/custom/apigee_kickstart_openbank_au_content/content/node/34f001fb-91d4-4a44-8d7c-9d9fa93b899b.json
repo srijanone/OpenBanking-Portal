@@ -1,0 +1,166 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/faq\/what-difference-between-api-and-api-product?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/faq"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/faq\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/faq\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "34f001fb-91d4-4a44-8d7c-9d9fa93b899b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 4
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "faq"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-11-13T11:47:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/faq\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "89233ac1-80ad-4745-9131-a83198f5690d"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/faq\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "89233ac1-80ad-4745-9131-a83198f5690d"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "What is the difference between an API and an API Product?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-13T11:47:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-11-13T11:47:30+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "What is the difference between an API and an API Product? | Open Bank AU",
+                "canonical_url": "http:\/\/default\/faq\/what-difference-between-api-and-api-product",
+                "description": "API stands for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. An API product bundles resources (such as API proxies) in order to provide a specific level of access and functionality for client app developers. On the other hand an API product typically specifies a list of API proxies, along with access limits, API key approval method, and other configuration that should be in place for all of the bundled proxies."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/faq\/what-difference-between-api-and-api-product",
+            "pid": 4,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>API stands for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. An API product bundles resources (such as API proxies) in order to provide a specific level of access and functionality for client app developers. On the other hand an API product typically specifies a list of API proxies, along with access limits, API key approval method, and other configuration that should be in place for all of the bundled proxies.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>API stands for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. An API product bundles resources (such as API proxies) in order to provide a specific level of access and functionality for client app developers. On the other hand an API product typically specifies a list of API proxies, along with access limits, API key approval method, and other configuration that should be in place for all of the bundled proxies.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

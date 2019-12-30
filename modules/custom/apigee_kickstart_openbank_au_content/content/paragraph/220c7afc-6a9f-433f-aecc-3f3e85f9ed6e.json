@@ -1,0 +1,116 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/cta"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/cta\/field_buttons": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 48
+        }
+    ],
+    "uuid": [
+        {
+            "value": "220c7afc-6a9f-433f-aecc-3f3e85f9ed6e"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 181
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cta"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-11-26T10:50:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "23"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_content"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/cta\/field_buttons": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/button_group"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c671f756-d960-4e1d-890e-c92844dac652"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "159"
+            }
+        ]
+    },
+    "field_text": [
+        {
+            "value": "<p>Explore and Try out the APIs<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Explore and Try out the APIs<\/p>",
+            "lang": "en"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Documentation",
+            "lang": "en"
+        }
+    ]
+}

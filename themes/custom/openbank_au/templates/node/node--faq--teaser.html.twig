@@ -1,0 +1,13 @@
+{#
+/**
+ * @file
+ * Template for an FAQ node in Teaser display mode.
+ */
+#}
+{% extends '@openbank_au/node/node.twig' %}
+{% block content %}
+  {% include '@openbank_au/details/details.twig' with {
+    summary: label,
+    content: content
+  } %}
+{% endblock %}
